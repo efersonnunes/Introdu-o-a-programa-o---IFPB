@@ -33,7 +33,7 @@ diaFrio = data
 diaQuente = data
 tempMaior = temperatura
 tempMenor = temperatura
-for i in range(2):
+for i in range(29):
     temperatura = int(input('Temperatura'))
     data = (input('Dia: '))
     if temperatura > tempMaior:
