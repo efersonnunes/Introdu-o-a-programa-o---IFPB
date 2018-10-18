@@ -45,5 +45,14 @@ for i in range(29):
 print('== * 20')
 print(f'Tem Mais Quente : {tempMaior} -> Dia  - {diaQuente} de Abril  \nTemp Mais Fria : {tempMenor} ->  Dia - {diaFrio} de Abril')
     
-    
+#Questão 005
+num = int(input('Digite um número :'))
+tot = 0
+for i in range (1, num + 1):
+   if num % i == 0:
+    tot +=1
+if tot == 2:
+    print('Primo')
+else:
+    print('Não é primo')
   
